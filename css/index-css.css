@@ -1,0 +1,18 @@
+ /* This is the css for index.html */
+
+#flashmatchlogo {
+  width: 100px;
+  height: 100px;
+}
+
+header {
+  background-color: lightblue;
+}
+
+#profile-button {
+  float: right;
+}
+
+#para {
+  color: red;
+}
