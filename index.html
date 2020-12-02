@@ -4,19 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index-css.css">
-    <title>Document</title>
+    <title>FlashMatch</title>
 </head>
 <body>
     <div>
-        <p id="para">This is the main page where users select genres.<p>
-        <header>
-            <p>FlashMatch</p>
+
+        <header class="cf">
             <img id="flashmatchlogo" src="images/flashmatch-logo.png" alt="FlashMatch Logo">
-            <button id="profile-button" type="button" name="button">Profile</button>
-            <button id="flashcard-button" type="button" name="button">Pick this flashcard</button>
+            <div id="header-text">
+                <button id="profile-button" type="button" name="button">Profile</button>
+                <p id="text-flashmatch">FlashMatch</p>
+                <p id="text-connections">Discover Connections</p>
+            </div>
         </header>
     </div>
-
+    <p id="instructions-text">Choose a topic you feel like answering today!</p>
+    <div id="six-buttons">
+        <button class="flashcard-buttons" id="first-button" type="button" name="button">
+            <img id="cocktail" src="images/cocktail.svg" alt="cocktail icon">
+            <hr class="flashcard-line">
+            <p class="flashcard-text">SOCIAL</p>
+        </button>
+        <button class="flashcard-buttons" id="second-button" type="button" name="button">
+            <img id="music" src="images/music.svg" alt="music icon">
+            <hr class="flashcard-line">
+            <p class="flashcard-text">MUSIC</p>
+        </button>
+        <button class="flashcard-buttons" id="third-button" type="button" name="button">
+            <img id="food" src="images/food.svg" alt="food icon">
+            <hr class="flashcard-line">
+            <p class="flashcard-text">FOOD</p>
+        </button>
+        <button class="flashcard-buttons" id="fourth-button" type="button" name="button">
+            <img id="sports" src="images/sports.svg" alt="sports icon">
+            <hr class="flashcard-line">
+            <p class="flashcard-text">SPORTS</p>
+        </button>
+        <button class="flashcard-buttons" id="fifth-button" type="button" name="button">
+            <img id="world" src="images/world.svg" alt="world icon">
+            <hr class="flashcard-line">
+            <p class="flashcard-text">WORLD</p>
+        </button>
+        <button class="flashcard-buttons" id="sixth-button" type="button" name="button">
+            <img id="tech" src="images/tech.svg" alt="tech icon">
+            <hr class="flashcard-line">
+            <p class="flashcard-text">TECH</p>
+        </button>
+    </div>
     <script src="js/index-js.js"></script>
 </body>
+<footer class="cf">
+    <a href="#">About FlashMatch</a>
+    <a href="#">Contact Us</a>
+    <a>&#169; Copyright FlashMatch Team</a>
+</footer>
 </html>
