@@ -4,58 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index-css.css">
-    <title>FlashMatch</title>
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title>Welcome to FlashMatch</title>
 </head>
 <body>
-    <div>
+    <header id="main_header" class="cf">
+        <nav>
+            <ul>
+                <div id="header_logo">
+                    <li><img id="flashmatchlogo" src="images/flashmatch_transparent.png" alt="FlashMatch Logo"></li>
+                </div>
 
-        <header class="cf">
-            <img id="flashmatchlogo" src="images/flashmatch-logo.png" alt="FlashMatch Logo">
-            <div id="header-text">
-                <button id="profile-button" type="button" name="button">Profile</button>
-                <p id="text-flashmatch">FlashMatch</p>
-                <p id="text-connections">Discover Connections</p>
-            </div>
-        </header>
-    </div>
-    <p id="instructions-text">Choose a topic you feel like answering today!</p>
-    <div id="six-buttons">
-        <button class="flashcard-buttons" id="first-button" type="button" name="button">
-            <img id="cocktail" src="images/cocktail.svg" alt="cocktail icon">
-            <hr class="flashcard-line">
-            <p class="flashcard-text">SOCIAL</p>
-        </button>
-        <button class="flashcard-buttons" id="second-button" type="button" name="button">
-            <img id="music" src="images/music.svg" alt="music icon">
-            <hr class="flashcard-line">
-            <p class="flashcard-text">MUSIC</p>
-        </button>
-        <button class="flashcard-buttons" id="third-button" type="button" name="button">
-            <img id="food" src="images/food.svg" alt="food icon">
-            <hr class="flashcard-line">
-            <p class="flashcard-text">FOOD</p>
-        </button>
-        <button class="flashcard-buttons" id="fourth-button" type="button" name="button">
-            <img id="sports" src="images/sports.svg" alt="sports icon">
-            <hr class="flashcard-line">
-            <p class="flashcard-text">SPORTS</p>
-        </button>
-        <button class="flashcard-buttons" id="fifth-button" type="button" name="button">
-            <img id="world" src="images/world.svg" alt="world icon">
-            <hr class="flashcard-line">
-            <p class="flashcard-text">WORLD</p>
-        </button>
-        <button class="flashcard-buttons" id="sixth-button" type="button" name="button">
-            <img id="tech" src="images/tech.svg" alt="tech icon">
-            <hr class="flashcard-line">
-            <p class="flashcard-text">TECH</p>
-        </button>
-    </div>
+                <div id="header_title">
+                    <li class="header_text" id="text-flashmatch">FlashMatch</li>
+                </div>
+
+                <div id="header_links">
+                    <li id="flashcard_genres" class="nav_links">FlashGenres</li>
+                    <li class="nav_links" id="about_link">About</li>
+                    <li class="nav_links" id="contact_link">Contact</li>
+                </div>
+
+                <div id="header_button">
+                    <li><button id="profile_button" type="button" name="button">Profile</button></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="splash_content_box" class="cf">
+        <div id="splash_text_box">
+            <p id="splash_text">Meet people with similiar interests</p>
+            <button id="splash_button">DISCOVER CONNECTIONS</button>
+        </div>
+
+        <div id="splash_image_box">
+            <img id="splash_image" src="images/Online friends-rafiki.png">
+        </div>
+    </main>
+
+    <footer class="cf">
+        <p class="nav_links" id="about_footer">About FlashMatch</p>
+        <p class="nav_links" id="contact_footer">Contact Us</p>
+        <p id="copyright">&#169; Copyright FlashMatch Team</a>
+        <div>
+          <a id="Freepik" href="https://storyset.com/">Illustration by Freepik Storyset</a>
+        <div>
+    </footer>
+
     <script src="js/index-js.js"></script>
 </body>
-<footer class="cf">
-    <a href="#">About FlashMatch</a>
-    <a href="#">Contact Us</a>
-    <a>&#169; Copyright FlashMatch Team</a>
-</footer>
 </html>

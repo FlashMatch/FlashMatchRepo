@@ -1,6 +1,128 @@
- /* This is the css for profile.html */
+/* This is the css for profile.html */
 
- #flashmatchlogo {
-   width: 100px;
-   height: 100px;
- }
+#flashmatchlogo {
+ width: 140px;
+ height: 140px;
+ float: left;
+ cursor: pointer;
+}
+
+#header-text {
+ width: 60%;
+ text-align: center;
+ margin: 0 auto;
+}
+
+#home-button {
+   font-size: 1.2vw;
+
+   letter-spacing: 3px;
+   background-color: #2AE2EE;
+
+   border: none;
+   padding: 20px;
+   border-radius: 10px;
+   transition: all 0.8s;
+   font-family: 'Raleway';
+   font-weight: bold;
+}
+
+#home-button:hover {
+   background: #002db3;
+   color: white;
+   cursor: pointer;
+}
+
+#text-flashmatch {
+ width: 100%;
+ text-align: center;
+ font-size: 80px;
+ margin-top: 15px;
+}
+
+#text-connections {
+   position: relative;
+   width: 100%;
+   text-align: center;
+   font-size: 40px;
+   bottom: 70px;
+   letter-spacing: 5px;
+}
+
+#center {
+ display: flex;
+ margin: auto;
+ width: 50%;
+}
+
+.subheading {
+ font-family: 'Montserrat', sans-serif;
+ background-color: #eee;
+ padding: 4px;
+}
+
+.match {
+  background-color: #2AE2EE;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  color: #002db3;
+  transition: all 0.8s;
+}
+
+.match:hover {
+ background: #002db3;
+ color: white;
+}
+
+.matches {
+ border-radius: 50px;
+ width: 40px;
+ transition: all 0.8s;
+ filter: grayscale(80%);
+ -webkit-filter: grayscale(80%);
+}
+
+.matches:hover {
+ filter: none;
+ -webkit-filter: grayscale(0);;
+}
+
+.nav_links{
+   margin: 0px 20px;
+   font-weight: bold;
+   text-decoration: none;
+   font-size: 1.6vw;
+   color: black;
+   transition: all 0.8s;
+   font-family: 'Raleway';
+}
+
+.nav_links:hover{
+   color: #01afd1;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+footer {
+   position: relative;
+   border-top: solid black;
+   text-align: center;
+   width: 100%;
+}
+
+footer > p{
+   position: relative;
+   margin: 20px 20px;
+   margin-top: 5px;
+   font-size: 30px;
+   color: black;
+   display: inline-block;
+}
+
+#copyright{
+ text-decoration: none;
+ font-size: 1.6vw;
+ font-family: 'Raleway';
+ font-weight: bold;
+}

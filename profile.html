@@ -3,20 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/genre-css.css">
     <link rel="stylesheet" href="css/profile-css.css">
+    <link rel="stylesheet" href="css/index-css.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <p id="para">This is a user's profile page.<p>
-        <header>
-            <p>FlashMatch</p>
-            <img id="flashmatchlogo" src="images/flashmatch-logo.png" alt="FlashMatch Logo">
-            <button id="index-button" type="button" name="button">Go back to main page.</button>
+  <div>
+  <header id="main_header" class="cf">
+        <nav>
+            <ul>
+                <div id="header_logo">
+                    <li><img id="flashmatchlogo" src="images/flashmatch_transparent.png" alt="FlashMatch Logo"></li>
+                </div>
 
-        </header>
+                <div id="header_title">
+                    <li class="header_text" id="text-flashmatch">FlashMatch</li>
+                </div>
+
+                <div id="header_links">
+                    <li id="flashcard_genres" class="nav_links">FlashGenres</li>
+                    <li class="nav_links" id="about_link">About</li>
+                    <li class="nav_links" id="contact_link">Contact</li>
+                </div>
+
+                <div id="header_button">
+                    <li><button id="home-button" type="button" name="button">Main</button></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
     </div>
+    <div id="center">
+    <div id="profile" style="margin-top: 250px; margin-bottom: 50px;">
+          <table style="border: 1px solid #2AE2EE; border-radius: 20px; padding: 20px; font-family: open sans; font-size: 0.8em;">
+            <tr>
+              <td valign="top">
+                <img src="https://i.imgur.com/PmBOhxn.gif">
+                <div class="subheading" style="margin-bottom: 5px; margin-top: 5px;">BASIC INFORMATION</div>
+                <div style="padding: 5px;"><b>Age:</b> 21<br />
+                <b>Gender:</b> Male</div>
 
+                <div class="subheading" style="margin-bottom: 5px; margin-top: 5px;">CONTACT</div>
+                <div style="padding: 5px;"><img src="https://i.imgur.com/pwVrtaP.png" style="width: 20px;"> kevin@gmail.com<br />
+                <img src="https://i.imgur.com/oi5GH7z.jpg" style="width: 20px;"> kevin#4321</div><br /><br />
+              </td>
+              <td valign="top" style="padding-left: 20px;">
+                <span style="font-family: 'Montserrat', sans-serif; font-size: 1.6em;">KEVIN GREEN</span><br />
+                <span style="font-family: 'Montserrat', sans-serif; font-size: 0.8em; color: #787878;">STUDENT</span><br /><br />
+
+                <div class="subheading">ABOUT ME</div><br />
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec luctus metus. Nam sem erat, condimentum consequat nunc ut, pulvinar facilisis est. Sed scelerisque porta dolor, ut gravida libero aliquet eu. Nunc tempus dictum mi, sit amet volutpat ante cursus nec. Proin vulputate, neque eget volutpat euismod, felis ante rutrum nibh, eget ornare massa metus porttitor massa. Donec eleifend erat gravida, convallis magna congue, aliquet sem. Duis non pulvinar nisl.
+
+                <br /><br />
+
+                Duis vel orci cursus mi rhoncus porta nec eget est. Vestibulum ut libero porttitor, maximus sapien vitae, fringilla orci. Phasellus pharetra eget est vel euismod. In varius, nulla vel convallis tincidunt, ex felis convallis neque, vel bibendum nunc dui id tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi laoreet lectus sit amet velit efficitur, vitae mattis arcu pretium. Duis ultricies lectus nec orci fringilla ullamcorper.<br /><br />
+
+                <div class="subheading">FLASHMATCH RESULTS</div><br />
+
+                <div style="line-height: 3em;">
+
+                  <button class="match">SOCIAL</button>
+
+                  <button class="match">MUSIC</button>
+
+                  <button class="match">FOOD</button>
+
+                  <button class="match">SPORTS</button>
+
+                  <button class="match">WORLD</button>
+
+                  <button class="match">TECH</button>
+
+                </div><br />
+
+                <div class="subheading">TOP MATCHES</div><br />
+
+                <table>
+                  <tr>
+                    <td><img src="https://pbs.twimg.com/media/D7RkBZ9WkAAn6ih?format=jpg" class="matches"></td>
+                    <td><img src="https://pbs.twimg.com/media/D7RkELXXkAA9Xwa?format=jpg" class="matches"></td>
+                    <td><img src="https://pbs.twimg.com/media/D7RkFs5XYAAJvTj?format=jpg" class="matches"></td>
+                  </tr>
+                  <tr style="text-align: center; line-height: 0.5em;">
+                    <td>90%</td>
+                    <td>78%</td>
+                    <td>73%</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+    </div>
+    </div>
+    <footer class="cf">
+      <p class="nav_links" id="about_footer">About FlashMatch</p>
+      <p class="nav_links" id="contact_footer">Contact Us</p>
+      <p id="copyright">&#169; Copyright FlashMatch Team</a>
+    </footer>
     <script src="js/profile-js.js"></script>
 </body>
 </html>
